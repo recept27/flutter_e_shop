@@ -1,5 +1,9 @@
-# flutter_e_shop
 
+
+
+
+# flutter_e_shop
+Uygulama Arayüzleri ve Firebase Bağlantısı yapılcaktır
 A new Flutter project.
 
 ## Getting Started
