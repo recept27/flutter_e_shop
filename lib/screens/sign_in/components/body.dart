@@ -1,10 +1,12 @@
+// ignore_for_file: non_constant_identifier_names
+
 import 'package:flutter/material.dart';
-import 'package:flutter_e_shop/components/no_account_text.dart';
 import 'package:flutter_e_shop/components/socal_card.dart';
 import '../../../size_config.dart';
-import 'sign_form.dart';
 
 class Body extends StatelessWidget {
+  const Body({Key? key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return SafeArea(
@@ -24,7 +26,7 @@ class Body extends StatelessWidget {
                     fontWeight: FontWeight.bold,
                   ),
                 ),
-                Text(
+                const Text(
                   "sign in with your email and password \nor continue with social media",
                   textAlign: TextAlign.center,
                 ),
@@ -62,4 +64,6 @@ class Body extends StatelessWidget {
       ),
     );
   }
+
+  SignForm() {}
 }

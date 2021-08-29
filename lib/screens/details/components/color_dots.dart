@@ -29,7 +29,7 @@ class ColorDots extends StatelessWidget {
               isSelected: index == selectedColor,
             ),
           ),
-          Spacer(),
+          const Spacer(),
           RoundedIconBtn(
             icon: Icons.remove,
             press: () {},
@@ -48,8 +48,8 @@ class ColorDots extends StatelessWidget {
 
 class ColorDot extends StatelessWidget {
   const ColorDot({
-    Key key,
-    @required this.color,
+    required Key key,
+    required this.color,
     this.isSelected = false,
   }) : super(key: key);
 
@@ -59,7 +59,7 @@ class ColorDot extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: EdgeInsets.only(right: 2),
+      margin: const EdgeInsets.only(right: 2),
       padding: EdgeInsets.all(getProportionateScreenWidth(8)),
       height: getProportionateScreenWidth(40),
       width: getProportionateScreenWidth(40),
