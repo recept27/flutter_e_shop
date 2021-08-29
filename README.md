@@ -3,6 +3,7 @@
 A new Flutter project.
 
 # kullanıcı deneyimlerine dayanarak yapılan bir arayüzdür.
+arayüzler flutter provider ile yaplmıştır.
 
 ## Getting Started
 
